@@ -9,6 +9,6 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.100.112/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.16/g' package/base-files/files/bin/config_generate
 
 # Install Argon Theme
